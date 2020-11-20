@@ -39,7 +39,7 @@ static int swizzleCounter;
 }
 
 + (void)load {
-    [self disablePluginNamed:@"FLTFirebaseCorePlugin"];
+    //[self disablePluginNamed:@"FLTFirebaseCorePlugin"];
     [self disablePluginNamed:@"FLTFirebaseMessagingPlugin"];
 }
 
